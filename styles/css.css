@@ -1,0 +1,86 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #383838;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 0;
+  font-size: 14px;
+}
+
+ul li {
+  display: inline;
+}
+
+nav ul {
+  float: right;
+  margin-bottom: 150px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.material-icons {
+  vertical-align: middle;
+  color: #65686d;
+}
+
+/*not working*/
+.md-36 {
+  font-size: 36px;
+}
+
+img {
+  display: block;
+  clear: both;
+  margin: 0 auto 40px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input.search_box {
+  width: 450px;
+  height: 40px;
+  display: block;
+  margin: 0 auto 20px;
+  border: 1px #5b87d3 solid;
+}
+
+.button {
+  width: 140px;
+  height: 35px;
+  margin: 0 7px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  background-color: #e2e2e2;
+  width:100%;
+}
+
+footer ul li {
+  margin-right: 30px;
+}
+
+ul.bottom_left {
+  float: left;
+  margin-left: 10px;
+}
+
+ul.bottom_right {
+  float: right;
+}
